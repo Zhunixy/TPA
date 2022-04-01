@@ -15,10 +15,8 @@ $resposta3= --$num1+ $num4;
 echo $resposta1;
 echo '<br>';
 echo $resposta2;
-echo '<br>'
+echo '<br>';
 echo $resposta3;
-
-
 
 // -operando: troca o sinal do operando.
 // ++operando: conhecido como pré-incremento, primeiro incrementa depois realiza a operação.
