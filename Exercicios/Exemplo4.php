@@ -1,9 +1,8 @@
 <?php
 
-$num1 = 5;
-$num2 = 10;
+$num1 = 20;
 
-$resposta1 = + $num2 + $num2;
+$resposta1 = ++ $num1;
 
 echo $resposta1;
 
