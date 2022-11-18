@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+table {
+    margin-top: 2rem;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-bottom: 2px solid rgb(163, 6, 6);
+    border-collapse: collapse;
+    padding: 35px;
+    width: 990px;
+    height: 5rem;
+    font-size: 1rem;
+}
+
+tr:hover {
+    transition: all 0.3s;
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+a {
+    color: rgb(0, 0, 0);
+    transition: all 0.3s;
+    font-size: 16px;
+}
+
+button {
+    border-radius: 3rem;
+    width: 20rem;
+    height: 3rem;
+    border: 2px solid rgb(255, 255, 255);
+    background: black;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background: white;
+    transition: all 0.2s;
+    border: 2px solid black;
+    color: black;
+}
+
+.form {
+    width: 16rem;
+    height: 3rem;
+    border-bottom: 2px solid black;
+}
+
+#btn {
+    width: 17rem;
+    border-radius: 2rem;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 2.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#btn:hover {
+    background: rgb(255, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    transition: all 0.3s;
+    color: black;
+}
+
+.main {
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+    width: 50rem;
+    height: 30rem;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centro {
+    margin-left: 36rem;
+    margin-top: 15rem;
+}
+
+.icon {
+    color: rgb(0, 0, 0);
+}
+
+.icon:hover {
+    color: red;
+}
+
+.icone2 {
+    margin-left: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.icone2:hover {
+    color: greenyellow;
+}
+
+input {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    width: 37rem;
+    height: 3rem;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+}

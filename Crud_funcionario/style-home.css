@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.banner {
+    background-image: url(pexels-matthias-zomer-618158.jpg);
+    height: 100vh;
+}
+
+section {
+    margin-top: 20rem;
+    text-align: center;
+}
+
+section h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+section p {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.726);
+}
+
+section button {
+    margin-top: 20px;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 2rem;
+    background: black;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+span {
+    color: red;
+}
+
+section button:hover {
+    background: transparent;
+    color: black;
+}
+
+nav {
+    background: black;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+}
